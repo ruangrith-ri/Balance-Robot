@@ -1,0 +1,31 @@
+Net Status Report
+Filename     : C:\Users\Jeeno\Documents\HCI Lab\ fibo\Balance Robot\PCB_Project\PCB1.PcbDoc
+Date         : 9/28/2020
+Time         : 4:58:56 AM
+Time Elapsed : 00:00:00
+
+Nets, Layer, Length
+    +12, Signal Layers Only, 6330.688mils
+    +3.3, Signal Layers Only, 5180.362mils
+    +5, Signal Layers Only, 0mils
+    AT, Signal Layers Only, 660.621mils
+    DIR1, Signal Layers Only, 416.777mils
+    DIR2, Signal Layers Only, 2378.371mils
+    GND, Signal Layers Only, 11181.512mils
+    MPU_INT, Signal Layers Only, 1283.042mils
+    NetJ2_5, Signal Layers Only, 100mils
+    NetJ3_3, Signal Layers Only, 337.188mils
+    NetJ3_4, Signal Layers Only, 337.841mils
+    NetJ3_5, Signal Layers Only, 338.492mils
+    NetJ3_6, Signal Layers Only, 339.144mils
+    NetJ4_5, Signal Layers Only, 100mils
+    NetJ5_3, Signal Layers Only, 301.832mils
+    NetJ5_4, Signal Layers Only, 302.485mils
+    NetJ5_5, Signal Layers Only, 303.137mils
+    NetJ5_6, Signal Layers Only, 303.789mils
+    SCL, Signal Layers Only, 1076.803mils
+    SDA, Signal Layers Only, 1230.68mils
+    STEP1, Signal Layers Only, 559.056mils
+    STEP2, Signal Layers Only, 2232.651mils
+    VT, Signal Layers Only, 828.742mils
+count : 23

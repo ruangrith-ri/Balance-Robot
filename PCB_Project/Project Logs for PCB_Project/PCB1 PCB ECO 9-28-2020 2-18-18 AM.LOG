@@ -1,0 +1,135 @@
+Removed Pin From Net: NetName=GND Pin=J?-2
+Removed Pin From Net: NetName=SCL Pin=J?-3
+Removed Pin From Net: NetName=SDA Pin=J?-4
+Removed Pin From Net: NetName=MPU_INT Pin=J?-15
+Added Component: Designator=C?(CAP AL TH D10 L2.5 H12.5 - duplicate)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Polarized Capacitor (Radial); 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RB7.6-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Added Component: Designator=C?(CAP AL TH D10 L2.5 H12.5 - duplicate)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "Polarized Capacitor (Radial); 2 Leads"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "RB7.6-15"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Published"; Value = "8-Jun-2000"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = "100uF"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SSQ10803TSLL)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.id/datasheet/2/527/ssq_th-1370157.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.51mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SSQ10803TSLL)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.id/datasheet/2/527/ssq_th-1370157.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.51mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SSQ10803TSLL)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.id/datasheet/2/527/ssq_th-1370157.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.51mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SSQ10803TSLL)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.id/datasheet/2/527/ssq_th-1370157.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.51mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Added Component: Designator=J?(SSQ10803TSLL)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.mouser.co.id/datasheet/2/527/ssq_th-1370157.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "8.51mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "SAMTEC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SSQ-108-03-T-S-LL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=200-SSQ-108-03-TSLL"; VariantName = "[No Variations]"
+Added Component: Designator=P?(JST XH B4B-XH-A)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Component: Designator=P?(JST XH B4B-XH-A)
+Add component (AddParameter): Name = "LatestRevisionDate"; Value = "17-Jul-2002"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LatestRevisionNote"; Value = "Re-released for DXP Platform."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Publisher"; Value = "Altium Limited"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=GND Pin=C?-2
+Added Pin To Net: NetName=+3.3 Pin=J?-1
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-2
+Added Pin To Net: NetName=GND Pin=J?-3
+Added Pin To Net: NetName=SCL Pin=J?-3
+Added Pin To Net: NetName=GND Pin=J?-4
+Added Pin To Net: NetName=SDA Pin=J?-4
+Added Pin To Net: NetName=+3.3 Pin=J?-7
+Added Pin To Net: NetName=+3.3 Pin=J?-7
+Added Pin To Net: NetName=GND Pin=J?-8
+Added Pin To Net: NetName=GND Pin=J?-8
+Added Pin To Net: NetName=MPU_INT Pin=J?-8
+Added Pin To Net: NetName=MPU_INT Pin=J?-10
+Added Pin To Net: NetName=+12 Pin=C?-1
+Added Pin To Net: NetName=+12 Pin=C?-1
+Added Pin To Net: NetName=+12 Pin=J?-1
+Added Pin To Net: NetName=+12 Pin=J?-1
+Added Net: Name=+12
+Added Pin To Net: NetName=AT Pin=J?-2
+Added Pin To Net: NetName=AT Pin=J?-8
+Added Net: Name=AT
+Added Pin To Net: NetName=DIR1 Pin=J?-5
+Added Pin To Net: NetName=DIR1 Pin=J?-8
+Added Net: Name=DIR1
+Added Pin To Net: NetName=DIR2 Pin=J?-8
+Added Pin To Net: NetName=DIR2 Pin=J?-12
+Added Net: Name=DIR2
+Added Pin To Net: NetName=NetJ?_3 Pin=J?-3
+Added Pin To Net: NetName=NetJ?_3 Pin=P?-1
+Added Net: Name=NetJ?_3
+Added Pin To Net: NetName=NetJ?_4 Pin=J?-4
+Added Pin To Net: NetName=NetJ?_4 Pin=P?-2
+Added Net: Name=NetJ?_4
+Added Pin To Net: NetName=NetJ?_5 Pin=J?-5
+Added Pin To Net: NetName=NetJ?_5 Pin=J?-6
+Added Net: Name=NetJ?_5
+Added Pin To Net: NetName=NetJ?_6 Pin=J?-6
+Added Pin To Net: NetName=NetJ?_6 Pin=P?-4
+Added Net: Name=NetJ?_6
+Added Pin To Net: NetName=STEP1 Pin=J?-3
+Added Pin To Net: NetName=STEP1 Pin=J?-7
+Added Net: Name=STEP1
+Added Pin To Net: NetName=STEP2 Pin=J?-7
+Added Pin To Net: NetName=STEP2 Pin=J?-10
+Added Net: Name=STEP2
+Added Pin To Net: NetName=VT Pin=J?-1
+Added Pin To Net: NetName=VT Pin=J?-6
+Added Net: Name=VT
+Added Member To Class: ClassName=Sheet1 Member=Component C? Cap Pol1
+Added Member To Class: ClassName=Sheet1 Member=Component C? Cap Pol1
+Added Member To Class: ClassName=Sheet1 Member=Component J? ESP32-R
+Added Member To Class: ClassName=Sheet1 Member=Component J? ESP32-L
+Added Member To Class: ClassName=Sheet1 Member=Component J? A4988-2L
+Added Member To Class: ClassName=Sheet1 Member=Component J? MPU6050
+Added Member To Class: ClassName=Sheet1 Member=Component J? A4988-2R
+Added Member To Class: ClassName=Sheet1 Member=Component J? A4988-1L
+Added Member To Class: ClassName=Sheet1 Member=Component J? A4988-1R
+Added Member To Class: ClassName=Sheet1 Member=Component P? NEMA17_2
+Added Member To Class: ClassName=Sheet1 Member=Component P? NEMA17_1
