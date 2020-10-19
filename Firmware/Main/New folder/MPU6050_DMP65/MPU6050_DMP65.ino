@@ -1,4 +1,4 @@
-//#define BLYNK_PRINT Serial
+#define BLYNK_PRINT Serial
 #define BLYNK_USE_DIRECT_CONNECT
 
 #include <BlynkSimpleEsp32_BLE.h>
@@ -17,7 +17,7 @@
 double sensed_output, control_signal, setpoint;
 double Kp = 0, Ki = 0, Kd = 0;
 
-int T = 30; //sample time in milliseconds (ms)
+int T = 0; //sample time in milliseconds (ms)
 unsigned long last_time;
 double totalError, lastError;
 int max_control = 8000;
@@ -32,15 +32,35 @@ void Task1code( void * parameter) {
 
   Serial.print("Compute Core : ");
   Serial.println(xPortGetCoreID());
-  
-  for(;;) {
-    //
+
+  for (;;) {
+    readIMU();
+
+    sensed_output = getPitch();
+    PID_Control();
+
+
+    if (sensed_output >= -60 && sensed_output <= 60) {
+      if (control_signal > 0 ) {
+        Direction("Forward", control_signal, control_signal);
+        //Serial.println("A");
+      } else if (control_signal < 0) {
+        Direction("Backward", -control_signal, -control_signal);
+        //Serial.println("B");
+      }
+    } else {
+      Direction("Forward", 0, 0);
+      //Serial.println("C");
+
+    }
   }
 }
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------SETUP*/
 
 void setup() {
+  Serial.begin(9600);
+
   SetMotor();
 
   initIMU();
@@ -48,7 +68,6 @@ void setup() {
   initBlynk();
   delay(500);
 
-  Serial.begin(9600);
   Serial.print("Main Core : ");
   Serial.println(xPortGetCoreID());
 
@@ -64,28 +83,16 @@ void setup() {
 
 /*-----------------------------------------------------------------------------------------------------------------------------------------------------LOOP*/
 
+int delta_time_monitor = 0 , core0_time_monitor = 0;
+
 void loop() {
   Blynk.run();
-  readIMU();
-
-  sensed_output = getPitch();
-  PID_Control();
 
   Blynk.virtualWrite(V0, control_signal);
   Blynk.virtualWrite(V1, sensed_output);
 
-  if (sensed_output >= -60 && sensed_output <= 60) {
-    if (control_signal > 0 ) {
-      Direction("Forward", control_signal, control_signal);
-      //Serial.println("A");
-    } else if (control_signal < 0) {
-      Direction("Backward", -control_signal, -control_signal);
-      //Serial.println("B");
-    }
-  } else {
-    Direction("Forward", 0, 0);
-    //Serial.println("C");
-  }
+  Blynk.virtualWrite(V2, delta_time_monitor);
+  Blynk.virtualWrite(V4, core0_time_monitor);
 }
 
 BLYNK_WRITE(V11) {
@@ -110,23 +117,17 @@ BLYNK_WRITE(V14) {
 
 
 
-
-
-
-
-
-
-
-
-
+long core_last_time = 0;
 
 void PID_Control() {
   unsigned long current_time = millis();
   int delta_time = current_time - last_time;
 
+  core0_time_monitor = current_time - core_last_time ;
+
   if (delta_time >= T) {
 
-    Blynk.virtualWrite(V2, delta_time);
+    delta_time_monitor = delta_time;
 
     double error = setpoint - sensed_output;
 
@@ -148,6 +149,7 @@ void PID_Control() {
     lastError = error;
     last_time = current_time;
   }
+  core_last_time = current_time;
 }
 
 
